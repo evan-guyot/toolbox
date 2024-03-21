@@ -26,7 +26,9 @@ export default function RootLayout({
         }}
       >
         <Header />
-        <main className="pt-24 min-h-screen flex">{children}</main>
+        <main className="pt-24 min-h-screen flex justify-center">
+          {children}
+        </main>
       </body>
     </html>
   );
